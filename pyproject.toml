@@ -1,0 +1,26 @@
+[project]
+name = "azure-openai-sql-agent"
+version = "0.1.0"
+description = "This is azure openai sql agent"
+authors = [
+    {name = "varun"}
+]
+license = {text = "Apache Lincense 2.0"}
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pyodbc (==5.1.0)",
+    "tabulate (==0.9.0)",
+    "openai (==1.12.0)",
+    "langchain (==0.1.6)",
+    "langchain-community (==0.0.20)",
+    "langchain-core (==0.1.23)",
+    "langchain-experimental (==0.0.49)",
+    "langchain-openai (==0.0.5)",
+    "pandas (==2.2.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
